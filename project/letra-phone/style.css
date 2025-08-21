@@ -1,0 +1,104 @@
+nav {
+    background-color: #5630D6;;
+}
+
+footer {
+    background-color: #5630D6;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+#jumbotron {
+    background-image: url('assets/jumbotron/background.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.line-title{
+    width: 80px; 
+    border-top: 3px solid #a2a569;
+}
+
+
+#our-services .card {
+    height: 100%;
+    min-height: 350px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+#our-services .card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+#our-services .card:hover {
+    transform: translateY(-10px);
+}
+
+#our-services .card-title {
+    font-weight: bold;
+    color: #333;
+}
+
+#our-services .card-text {
+    font-size: 14px;
+    color: #666;
+}
+
+#testimonials .profile-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%; /* Membuat gambar menjadi bulat */
+}
+
+#testimonials .card {
+    height: 100%; /* Memastikan card memiliki tinggi penuh */
+    display: flex;
+    flex-direction: column;
+}
+
+#testimonials .card-body {
+    flex-grow: 1; /* Memastikan body card mengisi sisa ruang */
+}
+
+
+/* MEETING 29 */
+.footer-item {
+    text-decoration: none;
+}
+
+.line {
+    width: 50px; /* Panjang garis */
+    height: 2px; /* Ketebalan garis */
+    background-color: #FF4545; /* Warna garis, sesuaikan dengan kebutuhan */
+    margin-top: 5px; /* Jarak antara <h5> dengan garis */
+}
+
+/* MEETING 30 */
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* Menghilangkan jarak default */
+}
+
+.dropdown-menu {
+    background-color: #5630D6; /* Sesuaikan dengan warna navbar */
+    border: none;
+}
+
+.dropdown-item { 
+    color: #fff;
+}
+
+.dropdown-item:hover {
+    background-color: #9175ed; /* Efek hover pada item */
+}
+
+header {
+    z-index: 1000;
+}

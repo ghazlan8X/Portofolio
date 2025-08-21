@@ -1,0 +1,1072 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projek akhir (toko)</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"
+        integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="storage-css/css/main.css">
+    <link rel="stylesheet" href="storage-css/css/highlight.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-left">
+                <div class="logo">
+                    <a href="home.html">
+                        <p>NaviBay</p>
+                    </a>
+                </div>
+                <div class="category" tabindex="0">
+                    <div class="category-toggle">
+                        <h3>Category</h3>
+                    </div>
+
+                    <div class="category-dropdown">
+                        <div class="category-scroll">
+                            <div class="main-category">
+                                <h3>Electronics</h3>
+                                <h3>Book</h3>
+                                <h3>Fashion</h3>
+                                <h3>Audio</h3>
+                                <h3>Cameras</h3>
+                                <h3>Gaming</h3>
+                                <h3>Furniture</h3>
+                                <h3>Art & Craft</h3>
+                                <h3>Musical</h3>
+                                <h3>Travel</h3>
+                                <h3>Jewelry</h3>
+                                <h3>Automotive</h3>
+                                <h3>Groceries</h3>
+                            </div>
+                        </div>
+
+                        <div class="category-scroll">
+                            <div class="sub-category">
+                                <h3>Electronics</h3>
+
+                                <div class="sub-category-row">
+                                    <!-- sub-1 -->
+                                    <div class="sub-category-list">
+                                        <a href="#">Laptop</a>
+                                        <a href="#">Smart phone</a>
+                                        <a href="#">Pc</a>
+                                        <a href="#">Monitor</a>
+                                        <a href="#">Printers</a>
+                                    </div>
+                                    <!-- sub-2 -->
+                                    <div class="sub-category-list">
+                                        <a href="#">Speaker</a>
+                                        <a href="#">Headphones</a>
+                                        <a href="#">Earbuds</a>
+                                        <a href="#">Microphone</a>
+                                        <a href="#">Audio Recorders</a>
+                                    </div>
+                                    <!-- sub-3 -->
+                                    <div class="sub-category-list">
+                                        <a href="#">Projectors</a>
+                                        <a href="#">Blu-ray & DVD Players</a>
+                                        <a href="#">Soundbars & TV Speakers</a>
+                                        <a href="#">Surround Sound Systems</a>
+                                        <a href="#">LED/LCD/OLED TVs</a>
+                                    </div>
+                                    <!-- sub-4 -->
+                                    <div class="sub-category-list">
+                                        <a href="#">Tablets</a>
+                                        <a href="#">Power Banks</a>
+                                        <a href="#">Phone Cases & Protectors</a>
+                                        <a href="#">Chargers & Cables</a>
+                                        <a href="#">Smartwatches & Wearables</a>
+                                    </div>
+                                    <!-- sub-5 -->
+                                    <div class="sub-category-list">
+                                        <a href="#">DSLR & Mirrorless Cameras</a>
+                                        <a href="#">Action Cameras (GoPro, etc.)</a>
+                                        <a href="#">Smartphone Cameras</a>
+                                        <a href="#">Camera Lenses</a>
+                                        <a href="#">Tripods</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav-center">
+                <div class="search-container">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" class="search-bar" placeholder="Search...">
+                </div>
+            </div>
+
+            <div class="nav-right">
+                <div class="cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+
+                <div class="separator-vertical"></div>
+
+                <div class="account">
+                    <button class="log-in">
+                        <a href="login.html">Log in</a>
+                    </button>
+
+                    <button class="sign-in">
+                        <a href="sign-in.html">Sign in</a>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Banner Highlight -->
+        <section id="Highlight">
+            <div class="container">
+                <!-- slider -->
+                <div class="slider-container">
+                    <div class="slider-track">
+                        <div class="slide"><img src="assets/1.png" alt="Slide 1"></div>
+                        <div class="slide"><img src="assets/2.png" alt="Slide 2"></div>
+                        <div class="slide"><img src="assets/3.png" alt="Slide 3"></div>
+                    </div>
+                    <button class="nav-button prev">❮</button>
+                    <button class="nav-button next">❯</button>
+                    <div class="indicators"></div>
+                </div>
+            </div>
+
+            <div class="popular-category">
+                <div class="popular-category-title">
+                    <h3>Popular category</h3>
+                </div>
+                <div class="popular-category-list">
+                    <button>
+                        <a href="#">
+                            Electronics
+                        </a>
+                    </button>
+                    <button>
+                        <a href="#">
+                            Men's Fashion
+                        </a>
+                    </button>
+                    <button>
+                        <a href="#">
+                            Women's Fashion
+                        </a>
+                    </button>
+                    <button>
+                        <a href="#">
+                            Beauty & Personal Care
+                        </a>
+                    </button>
+                    <button>
+                        <a href="#">
+                            Gaming
+                        </a>
+                    </button>
+                    <button>
+                        <a href="#">
+                            Kitchen Appliances
+                        </a>
+                    </button>
+                    <button>
+                        <a href="#">
+                            Automotive
+                        </a>
+                    </button>
+                    <button>
+                        <a href="#">
+                            Sports & Outdoors
+                        </a>
+                    </button>
+                    <button>
+                        <a href="#">
+                            Hobbies & Collections
+                        </a>
+                    </button>
+                    <button>
+                        <a href="#">
+                            Books & Stationery
+                        </a>
+                    </button>
+                    <button>
+                        <a href="#">
+                            Toys & Kids
+                        </a>
+                    </button>
+                    <button>
+                        <a href="#">
+                            Jewelry & Accessories
+                        </a>
+                    </button>
+                    <button>
+                        <a href="#">
+                            Furniture & Home Decor
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- product-list -->
+        <section id="product-list">
+            <div class="container">
+                <!-- 1 -->
+                <div class="product">
+                    <div class="product-title">
+                        <h1>Electronics</h1>
+                        <a href="#">
+                            <p>See all</p>
+                        </a>
+                    </div>
+
+                    <div class="product-list">
+                        <!-- 1-1 -->
+                        <a href="product-page.html">
+                            <div class="card-product">
+                                <img src="https://m.media-amazon.com/images/I/71igjFyr56L._AC_SX679_.jpg" alt="">
+                                <div class="product-description">
+                                    <p class="product-text">
+                                        Apple 2025 MacBook Air 13-inch Laptop with M4 chip: Built for Apple
+                                        Intelligence,
+                                        13.6-inch Liquid Retina Display, 16GB Unified Memory,
+                                        256GB SSD Storage, 12MP Center Stage Camera, Touch ID; Silver
+                                    </p>
+                                    <p class="product-price ">
+                                        Rp20.000.000
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- 1-2 -->
+                        <a href="product-page.html">
+                            <div class="card-product">
+                                <img src="https://m.media-amazon.com/images/I/51pQrTuKNXL._AC_SX679_.jpg" alt="">
+                                <div class="product-description">
+                                    <p class="product-text">
+                                        Bone Conduction Headphones, 2024 Upgrade Open-Ear Wireless Bluetooth Workout
+                                        Headphones with Microphones,
+                                        8Hr Playtime, Waterproof Earphones for Sports, Running, Gym, Hiking, Cycling
+                                    </p>
+                                    <p class="product-price ">
+                                        Rp2.500.000
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- 1-3 -->
+                        <a href="product-page.html">
+                            <div class="card-product">
+                                <img src="https://m.media-amazon.com/images/I/71aKkhuMCIL._AC_SX679_.jpg" alt="">
+                                <div class="product-description">
+                                    <p class="product-text">
+                                        FPD 32-inch Smart TV Google TV HD 720p with Google Play and Google Cast
+                                        Built-in,
+                                        HDR 10, Dolby Audio, Voice Remote, Stream Live TV(Palette-Series, CG32-P3, 2024
+                                        Model)
+                                    </p>
+                                    <p class="product-price ">
+                                        Rp5.900.000
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- 1-4 -->
+                        <a href="product-page.html">
+                            <div class="card-product">
+                                <img src="https://m.media-amazon.com/images/I/61WcUsgIRGL._AC_SX679_.jpg" alt="">
+                                <div class="product-description">
+                                    <p class="product-text">
+                                        AULA F99 Wireless Mechanical Keyboard, Hot Swappable Custom Keyboard,Pre-lubed
+                                        Linear Switches,Gasket Structure,RGB Backlit Gaming Keyboard (Blue&White)
+                                    </p>
+                                    <p class="product-price ">
+                                        Rp400.000
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- 1-5 -->
+                        <a href="product-page.html">
+                            <div class="card-product">
+                                <img src="https://m.media-amazon.com/images/I/71adZk3VJAL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+                                    alt="">
+                                <div class="product-description">
+                                    <p class="product-text">
+                                        Z-Edge 24.5" Gaming Monitor, Z-Edge UG25I FHD 1920x1080 240Hz Gaming Monitor,
+                                        1ms Frameless LED, AMD Freesync Premium Display Port HDMI
+                                    </p>
+                                    <p class="product-price ">
+                                        Rp40.000.000
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- 1-6 -->
+                        <a href="product-page.html">
+                            <div class="card-product">
+                                <img src="https://m.media-amazon.com/images/I/61hb9509E-L._SX522_.jpg" alt="">
+                                <div class="product-description">
+                                    <p class="product-text">
+                                        LEWENTECH Gaming Mouse 6 Adjustable DPI Up to 7200 Wired PC Gaming Mouse 8
+                                        Programmable Buttons 13 Adjustable RGB LED
+                                        Modes 1.5 M Drag-Free Paracord Ergonomic Mouse Windows/PC/Mac/Laptop (White)
+                                    </p>
+                                    <p class="product-price ">
+                                        Rp400
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="product">
+                    <div class="product-title">
+                        <h1>Fashion</h1>
+                        <a href="#">
+                            <p>See all</p>
+                        </a>
+                    </div>
+
+                    <div class="product-list">
+                        <!-- 1-1 -->
+                        <a href="product-page.html">
+                            <div class="card-product">
+                                <img src="https://m.media-amazon.com/images/I/61byma0blWL._AC_SY879_.jpg" alt="">
+                                <div class="product-description">
+                                    <p class="product-text">
+                                        MAGCOMSEN Mens Hoodies Fleece Lined Casual Athletic Sweatshirts Pullover with
+                                        Kangaroo Pocket
+                                    </p>
+                                    <p class="product-price ">
+                                        Rp400.000
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- 1-2 -->
+                        <a href="product-page.html">
+                            <div class="card-product">
+                                <img src="https://m.media-amazon.com/images/I/41BfA1NXsJL._AC_SX679_.jpg" alt="">
+                                <div class="product-description">
+                                    <p class="product-text">
+                                        Vertx Delta LT Mens Stretch Tactical Pants with 14 Pockets, Lightweight Outdoor
+                                        Pants, EDC Work Hiking Gear, Athletic-Fit
+                                    </p>
+                                    <p class="product-price ">
+                                        Rp490.0700.
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- 1-3 -->
+                        <a href="product-page.html">
+                            <div class="card-product">
+                                <img src="https://m.media-amazon.com/images/I/71iVEqYVKHL._AC_SX679_.jpg" alt="">
+                                <div class="product-description">
+                                    <p class="product-text">
+                                        MoFiz Men's Sleep Sets,Modal Pajamas Set Ultra Soft Sleepwear Short Sleeve Top &
+                                        Bottom PJS Lounge Set 2 pieces
+                                    </p>
+                                    <p class="product-price ">
+                                        Rp905.364
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- 1-4 -->
+                        <a href="product-page.html">
+                            <div class="card-product">
+                                <img src="https://m.media-amazon.com/images/I/81brfHNmSDL._AC_SX679_.jpg" alt="">
+                                <div class="product-description">
+                                    <p class="product-text">
+                                        MAGCOMSEN Men's Sweaters 1/4 Zip Cotton Sweater Pullover Polo Sweaters Striped
+                                        Fall Winter Warm Sweatshirts
+                                    </p>
+                                    <p class="product-price ">
+                                        Rp400.000
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- 1-5 -->
+                        <a href="product-page.html">
+                            <div class="card-product">
+                                <img src="https://m.media-amazon.com/images/I/71smSeu1sYL._AC_SX679_.jpg" alt="">
+                                <div class="product-description">
+                                    <p class="product-text">
+                                        COOPLUS 12 Pack Mens Cushioned Ankle Socks, Low Cut Breathable Casual Socks
+                                        (Shoe Size 6-11)
+                                    </p>
+                                    <p class="product-price ">
+                                        Rp100.000
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- 1-6 -->
+                        <a href="product-page.html">
+                            <div class="card-product">
+                                <img src="https://m.media-amazon.com/images/I/51Ucy9L3G6L._AC_SY879_.jpg" alt="">
+                                <div class="product-description">
+                                    <p class="product-text">
+                                        HUNGSON Men's Slim Fit Stretch Jeans Ripped Skinny Jeans for Men, Distressed
+                                        Straight Leg Fashion Comfort Flex Waist Pants
+                                    </p>
+                                    <p class="product-price ">
+                                        Rp600.000
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="product">
+                    <div class="product-title">
+                        <h1>Furniture</h1>
+                        <a href="#">
+                            <p>See all</p>
+                        </a>
+                    </div>
+
+                    <div class="product-list">
+                        <!-- 1-1 -->
+                        <a href="product-page.html">
+                            <div class="card-product">
+                                <img src="https://m.media-amazon.com/images/I/81ZDW6EVhWL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+                                    alt="">
+                                <div class="product-description">
+                                    <p class="product-text">
+                                        Amazon Basics Ottoman with Storage, Tufted Round Upholstered Footstool, Linen,
+                                        Burlap Beige, 20" x 17"
+                                    </p>
+                                    <p class="product-price ">
+                                        Rp4.000.000
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- 1-2 -->
+                        <a href="product-page.html">
+                            <div class="card-product">
+                                <img src="https://m.media-amazon.com/images/I/81pt+9hPvRL._AC_SY300_SX300_.jpg" alt="">
+                                <div class="product-description">
+                                    <p class="product-text">
+                                        SUPERJARE Nightstand with Charging Station, Bed Side Table with Adjustable
+                                        Fabric Drawer,
+                                        Night Stand for Bedroom, 3-Tier Storage End Table, for Living Room, Rustic Brown
+                                        and Black
+                                    </p>
+                                    <p class="product-price ">
+                                        Rp9.070.124
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- 1-3 -->
+                        <a href="product-page.html">
+                            <div class="card-product">
+                                <img src="https://m.media-amazon.com/images/I/812LTTmatLL.__AC_SY300_SX300_QL70_FMwebp_.jpg"
+                                    alt="">
+                                <div class="product-description">
+                                    <p class="product-text">
+                                        Huuger 63 Inch Dresser for Bedroom, Dresser for Closet with 9 Drawers, Large TV
+                                        Stand for 55, 65, 70 Inch TV,
+                                        Entertainment Center with Storage, Wide Long Chest of Drawers, Rustic Brown
+                                    </p>
+                                    <p class="product-price ">
+                                        Rp905.364
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- 1-4 -->
+                        <a href="product-page.html">
+                            <div class="card-product">
+                                <img src="https://m.media-amazon.com/images/I/61o4gwHTYiL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+                                    alt="">
+                                <div class="product-description">
+                                    <p class="product-text">
+                                        Greenstell Vanity Stool Chair Faux Fur with Storage, 15.7"L x 11.8"W x 19.4"H
+                                        Soft Ottoman 4 Metal Legs with Anti-Slip Feet,
+                                        Furry Padded Seat, Modern Multifunctional Chairs for Makeup, Bedroom White
+                                    </p>
+                                    <p class="product-price ">
+                                        Rp400.000
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- 1-5 -->
+                        <a href="product-page.html">
+                            <div class="card-product">
+                                <img src="https://m.media-amazon.com/images/I/51AFEv3SbRL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+                                    alt="">
+                                <div class="product-description">
+                                    <p class="product-text">
+                                        Easy-Going Sectional Couch Covers for Dogs L Shape Sofa Cover Reversible Sofa
+                                        Slipcover Chaise Lounge Cover Furniture Protector
+                                        Cover for Pets Dog Cat (Large, Dark Gray/Dark Gray)
+                                    </p>
+                                    <p class="product-price ">
+                                        Rp40.000.000
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- 1-6 -->
+                        <a href="product-page.html">
+                            <div class="card-product">
+                                <img src="https://m.media-amazon.com/images/I/715Zzdq7l-L.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+                                    alt="">
+                                <div class="product-description">
+                                    <p class="product-text">
+                                        TooCust Tall End Table with Charging Station-Raised Baffle Design on The Top,12"
+                                        W×16" D×24" H
+                                        ,3-Tier Rustic Nightstand with Drawer, End Tables with USB Ports and Outlet,
+                                        Vintage Bedside Table
+                                    </p>
+                                    <p class="product-price ">
+                                        Rp400.000
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- 4 -->
+                <div class="product">
+                    <div class="product-title">
+                        <h1>Musical Instruments</h1>
+                        <a href="#">
+                            <p>See all</p>
+                        </a>
+                    </div>
+
+                    <div class="product-list">
+                        <!-- 1-1 -->
+                        <a href="product-page.html">
+                            <div class="card-product">
+                                <img src="https://m.media-amazon.com/images/I/61CGbgfQspL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+                                    alt="">
+                                <div class="product-description">
+                                    <p class="product-text">
+                                        Stylophone The Original Pocket Electronic Synthesizer | Synth Musical Instrument
+                                        |
+                                        Synthesizer Keyboard | Stylophone Instrument Synth
+                                    </p>
+                                    <p class="product-price ">
+                                        Rp3.000.000
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- 1-2 -->
+                        <a href="product-page.html">
+                            <div class="card-product">
+                                <img src="https://m.media-amazon.com/images/I/716OkGMVq9L.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+                                    alt="">
+                                <div class="product-description">
+                                    <p class="product-text">
+                                        REGIS Steel Tongue Drum 6 inch 8 Notes Musical Percussion Instrument, Rain Drum
+                                        for
+                                        Outside - Musician Gift for Family and Friends(malachite)
+                                    </p>
+                                    <p class="product-price ">
+                                        Rp300.000
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- 1-3 -->
+                        <a href="product-page.html">
+                            <div class="card-product">
+                                <img src="https://m.media-amazon.com/images/I/51hH1mlMWTL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+                                    alt="">
+                                <div class="product-description">
+                                    <p class="product-text">
+                                        Hand Percussion Triangle, 6IN Musical Steel Triangle with Striker, Percussion
+                                        Instrument with Exquisite Sound, Instrument for Orff Music Education
+                                    </p>
+                                    <p class="product-price ">
+                                        Rp905.364
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- 1-4 -->
+                        <a href="product-page.html">
+                            <div class="card-product">
+                                <img src="https://m.media-amazon.com/images/I/617t8MJMQ4L._AC_SX679_.jpg" alt="">
+                                <div class="product-description">
+                                    <p class="product-text">
+                                        Electric Saxophone: Digital Wind Instrument Set with MIDI Connectivity, 10
+                                        Musical
+                                        Tones, Bluetooth MIDI,
+                                        and Rechargeable Battery - Ideal for Beginners and Professionals, EWI Instrument
+                                    </p>
+                                    <p class="product-price ">
+                                        Rp400.000
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- 1-5 -->
+                        <a href="product-page.html">
+                            <div class="card-product">
+                                <img src="https://m.media-amazon.com/images/I/81XRSlMewlL._AC_SX679_.jpg" alt="">
+                                <div class="product-description">
+                                    <p class="product-text">
+                                        Original Aztec Death Whistle: Loudest Scream Whistle At 125+ Decibels -
+                                        Authentic
+                                        Human Sounding Screams - Easy to Blow & Scare - ARKAEOLOGY
+                                    </p>
+                                    <p class="product-price ">
+                                        Rp200.000
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- 1-6 -->
+                        <a href="product-page.html">
+                            <div class="card-product">
+                                <img src="https://m.media-amazon.com/images/I/81Cek1Lxu6L._AC_SX679_.jpg" alt="">
+                                <div class="product-description">
+                                    <p class="product-text">
+                                        Premium Kid's Electrical Violin for Beginners 7 Songs & Adjustable Rhythm
+                                        Musical
+                                        Instrument for 5-6-Year-Olds
+                                    </p>
+                                    <p class="product-price ">
+                                        Rp400
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="product-list">
+            <div class="container">
+                <div class="product">
+                    <div class="product-list">
+                        <!-- 1-1 -->
+                        <a href="product-page.html">
+                            <div class="card-product">
+                                <img src="https://m.media-amazon.com/images/I/61ZtqtvoD2L.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+                                    alt="">
+                                <div class="product-description">
+                                    <p class="product-text">
+                                        Fitbit Charge 6 Fitness Tracker with Google apps, Heart Rate on Exercise
+                                        Equipment,
+                                        6-Months Premium Membership Included, GPS, Health Tools and More,
+                                        Obsidian/Black,
+                                        One Size (S & L Bands Included)
+                                    </p>
+                                    <p class="product-price ">
+                                        Rp2.000.000
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- 1-2 -->
+                        <a href="product-page.html">
+                            <div class="card-product">
+                                <img src="https://m.media-amazon.com/images/I/61Q5IC3IHjL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+                                    alt="">
+                                <div class="product-description">
+                                    <p class="product-text">
+                                        LEVOIT Air Purifier for Home Allergies Pets Hair in Bedroom, Covers Up to 1095
+                                        ft²
+                                        by 56W High Torque Motor,
+                                        3-in-1 Filter with HEPA Sleep Mode, Remove Dust Smoke Pollutants Odor,
+                                        Core300-P,
+                                        White
+                                    </p>
+                                    <p class="product-price ">
+                                        Rp1.500.000
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- 1-3 -->
+                        <a href="product-page.html">
+                            <div class="card-product">
+                                <img src="https://m.media-amazon.com/images/I/71iS-sWLrNL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+                                    alt="">
+                                <div class="product-description">
+                                    <p class="product-text">
+                                        LEVOIT Cordless Vacuum Cleaner, Stick Vac with Tangle-Resistant Design, Up to 50
+                                        Minutes, Powerful Suction,
+                                        Rechargeable, Lightweight, and Versatile for Carpet, Hard Floor, Pet Hair,
+                                        LVAC-200
+                                    </p>
+                                    <p class="product-price ">
+                                        Rp2.900.000
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- 1-4 -->
+                        <a href="product-page.html">
+                            <div class="card-product">
+                                <img src="https://m.media-amazon.com/images/I/61fyoB87sPL._AC_SX679_.jpg" alt="">
+                                <div class="product-description">
+                                    <p class="product-text">
+                                        Ayleid Retractable Garden Hose Reel,1/2 in x 100 ft Wall Mounted Hose Reel, with
+                                        9-
+                                        Function Sprayer Nozzle,
+                                        Any Length Lock/Slow Return System/Wall Mounted/180°Swivel Bracket (Grey)
+                                    </p>
+                                    <p class="product-price ">
+                                        Rp600.000
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- 1-5 -->
+                        <a href="product-page.html">
+                            <div class="card-product">
+                                <img src="https://m.media-amazon.com/images/I/714AwxiuijL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+                                    alt="">
+                                <div class="product-description">
+                                    <p class="product-text">
+                                        Ninja BN701 Professional Plus Blender, 1400 Peak Watts, 3 Functions for
+                                        Smoothies,
+                                        Frozen Drinks & Ice Cream with Auto IQ, 72-oz.* Total Crushing Pitcher & Lid,
+                                        Dark
+                                        Grey
+                                    </p>
+                                    <p class="product-price ">
+                                        Rp2.000.000
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- 1-6 -->
+                        <a href="product-page.html">
+                            <div class="card-product">
+                                <img src="https://m.media-amazon.com/images/I/71oIyEHv3lL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+                                    alt="">
+                                <div class="product-description">
+                                    <p class="product-text">
+                                        SANSUI Curved Monitor 27 inch 100Hz USB Type-C Computer Monitor with Speakers
+                                        Built
+                                        in丨FHD 1080p丨HDR丨110% sRGB丨1500R丨
+                                        VESA Compatible,for Tablet,Desktop,Laptop and PC Work Gaming (ES-27C1)
+                                    </p>
+                                    <p class="product-price ">
+                                        Rp10.000.000
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-list">
+                        <!-- 1-1 -->
+                        <a href="product-page.html">
+                            <div class="card-product">
+                                <img src="https://m.media-amazon.com/images/I/61meTi8SRlL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+                                    alt="">
+                                <div class="product-description">
+                                    <p class="product-text">
+                                        WYZE Cam v4, 2.5K WiFi Security Camera, Indoor/Outdoor Cameras for Home
+                                        Security,
+                                        Pet Camera/Baby Monitor,
+                                        Motion Activated Spotlight/Siren, Color Night Vision, 2-Way Audio, Works with
+                                        Alexa
+                                        & Google
+                                    </p>
+                                    <p class="product-price ">
+                                        Rp400.000
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- 1-2 -->
+                        <a href="product-page.html">
+                            <div class="card-product">
+                                <img src="https://m.media-amazon.com/images/I/414C25OyjML.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+                                    alt="">
+                                <div class="product-description">
+                                    <p class="product-text">
+                                        Stylus Pen for iPad 6th-11th Generation-2X Fast Charge Active Pencil Compatible
+                                        with
+                                        2018-2025 Apple iPad Pro 11"/12.9"/M4,
+                                        iPad Air 3/4/5/M2/M3,iPad mini 5/6 Gen-White
+                                    </p>
+                                    <p class="product-price ">
+                                        Rp100.000
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- 1-3 -->
+                        <a href="product-page.html">
+                            <div class="card-product">
+                                <img src="https://m.media-amazon.com/images/I/71uZfXSHd+L._SX679_.jpg" alt="">
+                                <div class="product-description">
+                                    <p class="product-text">
+                                        Momcozy 8000mAh Portable Stroller Fan, 27H Ultra-long Battery Life Detachable 4
+                                        Speed 360°Rotate LED Night Light with 2 Modes,
+                                        USB Rechargeable Handheld Cooling Fan for Travel/Car Seat/Bedroom
+                                    </p>
+                                    <p class="product-price ">
+                                        Rp60.000
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- 1-4 -->
+                        <a href="product-page.html">
+                            <div class="card-product">
+                                <img src="https://m.media-amazon.com/images/I/61BYhW4RP3L.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+                                    alt="">
+                                <div class="product-description">
+                                    <p class="product-text">
+                                        Creality K1 Max 3D Printer with Smart AI Function 600mm/s Printing Speed
+                                        20000mm/s²
+                                        Acceleration,
+                                        Core XY Structure 11.81x11.81x11.81 inch Large Build Volume Auto Leveling
+                                        Dual-Gear
+                                        Extruder
+                                    </p>
+                                    <p class="product-price ">
+                                        Rp4.000.000
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- 1-5 -->
+                        <a href="product-page.html">
+                            <div class="card-product">
+                                <img src="https://m.media-amazon.com/images/I/51dhkN5TYiL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+                                    alt="">
+                                <div class="product-description">
+                                    <p class="product-text">
+                                        Soundcore Sport X20 by Anker, True-Wireless Workout Earbuds, Rotatable and
+                                        Extendable Ear Hooks, Noise Cancelling,
+                                        Deep Bass, IP68 Waterproof, Sweatproof, Dustproof, 48H Play, Sport Earbuds for
+                                        Gym
+                                    </p>
+                                    <p class="product-price ">
+                                        Rp1.000.000
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- 1-6 -->
+                        <a href="product-page.html">
+                            <div class="card-product">
+                                <img src="https://m.media-amazon.com/images/I/61-rTsey83L.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+                                    alt="">
+                                <div class="product-description">
+                                    <p class="product-text">
+                                        EMEET 1080P Webcam with Microphone, C960 Web Camera, 2 Mics, 90° FOV, USB Type-A
+                                        &
+                                        A-to-C Adapter,
+                                        Plug&Play Computer Camera for Online Calling/Conferencing,
+                                        Zoom/Skype/Facetime/YouTube, 2025 Version
+                                    </p>
+                                    <p class="product-price ">
+                                        Rp300.000
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-list">
+                        <!-- 1-1 -->
+                        <a href="product-page.html">
+                            <div class="card-product">
+                                <img src="https://m.media-amazon.com/images/I/51JMXGSMcTL._AC_SX679_.jpg" alt="">
+                                <div class="product-description">
+                                    <p class="product-text">
+                                        SENSYNE 62" Phone Tripod & Selfie Stick, Extendable Cell Phone Tripod Stand with
+                                        Wireless Remote and Phone Holder,
+                                        Compatible with iPhone Android Phone, Camera
+                                    </p>
+                                    <p class="product-price ">
+                                        Rp150.000
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- 1-2 -->
+                        <a href="product-page.html">
+                            <div class="card-product">
+                                <img src="https://m.media-amazon.com/images/I/71CCWWxTuML.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+                                    alt="">
+                                <div class="product-description">
+                                    <p class="product-text">
+                                        Laptop Screen Extender 14-inch, 1080P FHD Portable Monitor, Type-C/HDMI/USB-A
+                                        Plug &
+                                        Play,
+                                        Laptop Monitor Extender fits Laptops with Screen up to 15.35" Wide, Compatible
+                                        with
+                                        Windows, Mac, Chrome
+                                    </p>
+                                    <p class="product-price ">
+                                        Rp1.500.000
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- 1-3 -->
+                        <a href="product-page.html">
+                            <div class="card-product">
+                                <img src="https://m.media-amazon.com/images/I/617xwDKO9xL._AC_SX679_.jpg" alt="">
+                                <div class="product-description">
+                                    <p class="product-text">
+                                        MaxNova Baby Sun Hat Smile Face UPF 50+ Toddler Bucket Hat for Boys Girls 0-7
+                                        Years
+                                    </p>
+                                    <p class="product-price ">
+                                        Rp200.000
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- 1-4 -->
+                        <a href="product-page.html">
+                            <div class="card-product">
+                                <img src="https://m.media-amazon.com/images/I/61+Lks+5OPL._AC_SY300_SX300_.jpg" alt="">
+                                <div class="product-description">
+                                    <p class="product-text">
+                                        HBTower Step Ladder, Folding Step Stool with Wide Anti-Slip Pedal, Sturdy Steel
+                                        Ladder, Convenient Handrail,
+                                        Lightweight, Portable Steel Step Stool
+                                    </p>
+                                    <p class="product-price ">
+                                        Rp300.000
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- 1-5 -->
+                        <a href="product-page.html">
+                            <div class="card-product">
+                                <img src="https://m.media-amazon.com/images/I/61wxJ4jkbIL._AC_SX679_.jpg" alt="">
+                                <div class="product-description">
+                                    <p class="product-text">
+                                        BAGSMART Tote Bag for Women, Lightweight Puffy Tote Bag with Compartments,
+                                        Quilted
+                                        Shoulder Bag Handbag for Travel, Work
+                                    </p>
+                                    <p class="product-price ">
+                                        Rp200.000.
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- 1-6 -->
+                        <a href="product-page.html">
+                            <div class="card-product">
+                                <img src="https://m.media-amazon.com/images/I/51vsm9-fvbL._AC_SX679_.jpg" alt="">
+                                <div class="product-description">
+                                    <p class="product-text">
+                                        JISULIFE Portable Neck Fan, Hands-Free Bladeless, 5 Speeds, 4000 mAh Battery
+                                        Operated Wearable Personal Fan,
+                                        Twistable, Rechargeable, Gift for Women Men-Grey
+                                    </p>
+                                    <p class="product-price ">
+                                        Rp400.000
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div class="load-more">
+                    <button>Load more</button>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h2>NaviBay</h2>
+                <p>Your trusted online shopping destination for everything you need.</p>
+            </div>
+
+            <div class="footer-section">
+                <h4>About NaviBay</h4>
+                <ul>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Customer Care</h4>
+                <ul>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Returns & Refunds</a></li>
+                    <li><a href="#">Track Order</a></li>
+                    <li><a href="#">Shipping Info</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section footer-contact">
+                <h4>Contact Us</h4>
+                <p>Email: support@NaviBay.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 NaviBay. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="storage-js/js/slider.js"></script>
+
+</body>
+
+
+</html>

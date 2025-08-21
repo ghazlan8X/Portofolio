@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Projek akhir (toko)</title>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js" 
+   integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg==" 
+   crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <link rel="stylesheet" href="storage-css/css/main.css">
+   <link rel="stylesheet" href="storage-css/css/highlight.css">
+   <link rel="stylesheet" href="storage-css/css/login.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-left">
+                <div class="logo">
+                    <a href="home.html">
+                        <p>NaviBay</p>
+                    </a>
+                </div>
+                <div class="category" tabindex="0">
+                    <div class="category-toggle">
+                        <h3>Category</h3>
+                    </div>
+
+                    <div class="category-dropdown">
+                        <div class="category-scroll">
+                            <div class="main-category">
+                                <h3>Electronics</h3>
+                                <h3>Book</h3>
+                                <h3>Fashion</h3>
+                                <h3>Audio</h3>
+                                <h3>Cameras</h3>
+                                <h3>Gaming</h3>
+                                <h3>Furniture</h3>
+                                <h3>Art & Craft</h3>
+                                <h3>Musical</h3>
+                                <h3>Travel</h3>
+                                <h3>Jewelry</h3>
+                                <h3>Automotive</h3>
+                                <h3>Groceries</h3>
+                            </div>
+                        </div>
+
+                        <div class="category-scroll">
+                            <div class="sub-category">
+                                <h3>Electronics</h3>
+
+                                <div class="sub-category-row">
+                                    <!-- sub-1 -->
+                                    <div class="sub-category-list">
+                                        <a href="#">Laptop</a>
+                                        <a href="#">Smart phone</a>
+                                        <a href="#">Pc</a>
+                                        <a href="#">Monitor</a>
+                                        <a href="#">Printers</a>
+                                    </div>
+                                    <!-- sub-2 -->
+                                    <div class="sub-category-list">
+                                        <a href="#">Speaker</a>
+                                        <a href="#">Headphones</a>
+                                        <a href="#">Earbuds</a>
+                                        <a href="#">Microphone</a>
+                                        <a href="#">Audio Recorders</a>
+                                    </div>
+                                    <!-- sub-3 -->
+                                    <div class="sub-category-list">
+                                        <a href="#">Projectors</a>
+                                        <a href="#">Blu-ray & DVD Players</a>
+                                        <a href="#">Soundbars & TV Speakers</a>
+                                        <a href="#">Surround Sound Systems</a>
+                                        <a href="#">LED/LCD/OLED TVs</a>
+                                    </div>
+                                    <!-- sub-4 -->
+                                    <div class="sub-category-list">
+                                        <a href="#">Tablets</a>
+                                        <a href="#">Power Banks</a>
+                                        <a href="#">Phone Cases & Protectors</a>
+                                        <a href="#">Chargers & Cables</a>
+                                        <a href="#">Smartwatches & Wearables</a>
+                                    </div>
+                                    <!-- sub-5 -->
+                                    <div class="sub-category-list">
+                                        <a href="#">DSLR & Mirrorless Cameras</a>
+                                        <a href="#">Action Cameras (GoPro, etc.)</a>
+                                        <a href="#">Smartphone Cameras</a>
+                                        <a href="#">Camera Lenses</a>
+                                        <a href="#">Tripods</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav-center">
+                <div class="search-container">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" class="search-bar" placeholder="Search...">
+                </div>
+            </div>
+
+            <div class="nav-right">
+                <div class="cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+
+                <div class="separator-vertical"></div>
+
+                <div class="account">
+                    <button class="log-in">
+                        <a href="login.html">Log in</a>
+                    </button>
+
+                    <button class="sign-in">
+                        <a href="sign-in.html">Sign in</a>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="login">
+            <div class="login-page">
+                <h2 class="login-title">Sign in</h2>
+
+                <form class="login-form" action="/login" method="POST">
+                    <div class="input-group">
+                        <label for="username">Username</label><br />
+                        <input type="text" placeholder="Username or Email" name="username" required /><br /><br />    
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="password">Password</label><br />
+                        <input type="password" placeholder="Password" name="password" required /><br /><br />    
+                    </div>
+
+                    <div class="button-group">
+                        <button type="submit">Sign in</button>
+                    </div>
+                </form>
+
+                <div class="change-method">
+                    <p>Already have an account? <a href="login.html">Log in.</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+   
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-brand">
+            <h2>NaviBay</h2>
+            <p>Your trusted online shopping destination for everything you need.</p>
+          </div>
+      
+          <div class="footer-section">
+            <h4>About NaviBay</h4>
+            <ul>
+              <li><a href="#">Our Story</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Press</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-section">
+            <h4>Customer Care</h4>
+            <ul>
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Returns & Refunds</a></li>
+              <li><a href="#">Track Order</a></li>
+              <li><a href="#">Shipping Info</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-section footer-contact">
+            <h4>Contact Us</h4>
+            <p>Email: support@navibay.com</p>           
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2025 NaviBay. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="storage-js/js/slider.js"></script>
+</body>
+</html>

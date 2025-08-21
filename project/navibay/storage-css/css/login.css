@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* login */
+#login {
+    width: 1200px;
+    height: auto;
+    margin: 20px auto 0;
+}
+
+.login-page {
+    width: 450px;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.login-form {
+    padding: 0 10px;
+}
+
+.login-title {
+    text-align: center;
+    color: #1E88E5;
+    font-size: 2rem;
+    padding: 15px 0;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: grid;
+    grid-auto-flow: row; 
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 25px;
+}
+.button-group button {
+    width: 150px;
+    font-size: 1.2rem;
+    color: #1E88E5;
+    background-color: #ffffff;
+    border: 1px solid #1E88E5;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+label {
+    font-size: 1.2rem;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    width: 250px;
+    height: 40px;
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.change-method {
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    padding: 15px 0;
+}
+
+.change-method a {
+    color: #1E88E5;
+    text-decoration: none;
+}
